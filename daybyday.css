@@ -1,0 +1,551 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+a {text-decoration:none;color:#0000FF;}
+a:hover {text-decoration:underline;}
+#top_wrap {
+    min-height: 487px;
+}
+body { background: url("/img/background_red.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Enero_page { background: url("/img/background_blue.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Marzo_page { background: url("/img/background_green.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Abril_page { background: url("/img/background_blue.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Mayo_page { background: url("/img/background_orange.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Septiembre_page { background: url("/img/background_orange.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Octubre_page { background: url("/img/background_yellow.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.Noviembre_page { background: url("/img/background_yellow.jpg") repeat-x scroll left top #FFFFFF !important; }
+/*body. February, June July, August, December { red } */
+
+
+body.places_page { background: url("/img/background_blue.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.reading { background: url("/img/background_blue.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.art_craft { background: url("/img/background_yellow.jpg") repeat-x scroll left top #FFFFFF !important; }
+body.be_healthy { background: url("/img/background_blue.jpg") repeat-x scroll left top #FFFFFF !important; }
+
+#top_wrap { background: url("/img/header.png") no-repeat scroll center top transparent; }
+.Enero_page #top_wrap { background: url("/img/header_january.png") no-repeat scroll center top transparent; }
+.Febrero_page #top_wrap { background: url("/img/header_february.png") no-repeat scroll center top transparent; }
+.Marzo_page #top_wrap { background: url("/img/header_march.png") no-repeat scroll center top transparent; }
+.Abril_page #top_wrap { background: url("/img/header_april.png") no-repeat scroll center top transparent; }
+.Mayo_page #top_wrap { background: url("/img/header_may.png") no-repeat scroll center top transparent; }
+.Junio_page #top_wrap { background: url("/img/header_june.png") no-repeat scroll center top transparent; }
+.Julio_page #top_wrap { background: url("/img/header_july.png") no-repeat scroll center top transparent; }
+.Agosto_page #top_wrap { background: url("/img/header_august.png") no-repeat scroll center top transparent; }
+.Septiembre_page #top_wrap { background: url("/img/header_september.png") no-repeat scroll center top transparent; }
+.Octubre_page #top_wrap { background: url("/img/header_october.png") no-repeat scroll center top transparent; }
+.Noviembre_page #top_wrap { background: url("/img/header_november.png") no-repeat scroll center top transparent; }
+.Diciembre_page #top_wrap { background: url("/img/header_december.png") no-repeat scroll center top transparent; }
+.art_craft #top_wrap { background: url("/img/header_august.png") no-repeat scroll center top transparent; }
+
+#head_logos {
+    height: 72px;
+    margin: 0 auto;
+    width: 850px;
+}
+.moduletable_menuhead {
+    height: 23px;
+    margin: 0 auto;
+    width: 850px;
+}
+.moduletable_menuhead ul {
+    list-style: none outside none;
+    text-align: left;
+}
+.moduletable_menuhead ul li {
+    float: left;
+    font-size: 12px;
+    padding-left: 16px;
+    padding-top: 2px;
+}
+.moduletable_days ul li a {
+    color: #750929;
+}
+.moduletable_menuhead ul li a, .moduletable_footer_nav ul li a {
+    color: #DDDDDD;
+    font-family: Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+.moduletable_menuhead ul li a:hover, .moduletable_footer_nav ul li a:hover {
+    color: #AAAAAA;
+}
+
+.moduletable_menuhead h3 {
+    color: #DDDDDD;
+    float: left;
+    font: italic bold 14px Helvetica,Arial,sans-serif;
+    padding-left: 13px;
+    padding-top: 2px;
+}
+.logo {
+    float: left;
+    margin: 6px 0 0 20px;
+}
+#head_logos h1 {
+    font: small-caps bold 35px Tahoma,Helvetica,sans-serif;
+    padding-top: 5px;
+    text-align: center;
+	color:#fff;
+}
+.month_button {
+    display: block;
+    float: right;
+    height: 40px;
+    margin: 6px 20px 0 0;
+    width: 180px;
+}
+.month_button a {
+    display: block;
+    font: bold 16px Helvetica,Arial,sans-serif;
+    height: 40px;
+    letter-spacing: 0;
+    padding-top: 9px;
+    text-decoration: none;
+    width: 180px;
+	color:#fff;
+	}
+	.month_button a:hover {
+		text-decoration:underline;
+		}
+body.reading .month_button, body.about .month_button, body.be_healthy .month_button { display:none; }
+
+body.day_Monthly #top_wrap #content_container div.four { clear:both; }	
+
+#subnav {
+    margin: 0 auto;
+    text-align: center;
+    width: 780px;
+}
+.moduletable_days ul {
+    list-style: none outside none;
+}
+.moduletable_days ul li {
+    display: inline;
+    font: bold 12px Arial,Helvetica,sans-serif;
+}
+.moduletable_days ul li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.Enero_page .moduletable_days ul li a { color: #0055A4;border-bottom: 1px solid #0055A4;border-left: 1px solid #0055A4;border-right: 1px solid #0055A4; margin-bottom:4px; }
+.Febrero_page .moduletable_days ul li a { color: #711471;border-bottom: 1px solid #711471;border-left: 1px solid #711471;border-right: 1px solid #711471; margin-bottom:4px; }
+.Marzo_page .moduletable_days ul li a { color: #4F812E;border-bottom: 1px solid #6CB33F;border-left: 1px solid #6CB33F;border-right: 1px solid #6CB33F; margin-bottom:4px; }
+.Abril_page .moduletable_days ul li a { color: #7AB9E7;border-bottom: 1px solid #7AB9E7;border-left: 1px solid #7AB9E7;border-right: 1px solid #7AB9E7; margin-bottom:4px; }
+.Mayo_page .moduletable_days ul li a { color: #F58426;border-bottom: 1px solid #F58426;border-left: 1px solid #F58426;border-right: 1px solid #F58426; margin-bottom:4px; }
+.Junio_page .moduletable_days ul li a { color: #ED1556;border-bottom: 1px solid #ED1556;border-left: 1px solid #ED1556;border-right: 1px solid #ED1556; margin-bottom:4px; }
+.Julio_page .moduletable_days ul li a { color: #EF3E42;border-bottom: 1px solid #EF3E42;border-left: 1px solid #EF3E42;border-right: 1px solid #EF3E42; margin-bottom:4px; }
+.Agosto_page .moduletable_days ul li a { color: #8B0E04;border-bottom: 1px solid #8B0E04;border-left: 1px solid #8B0E04;border-right: 1px solid #8B0E04; margin-bottom:4px; }
+.Septiembre_page .moduletable_days ul li a { color: #F58426;border-bottom: 1px solid #F58426;border-left: 1px solid #F58426;border-right: 1px solid #F58426; margin-bottom:4px; }
+.Octubre_page .moduletable_days ul li a { color: #413000;border-bottom: 1px solid #413000;border-left: 1px solid #413000;border-right: 1px solid #413000; margin-bottom:4px; }
+.Noviembre_page .moduletable_days ul li a { color: #DDB000;border-bottom: 1px solid #DDB000;border-left: 1px solid #DDB000;border-right: 1px solid #DDB000; margin-bottom:4px; }
+.Diciembre_page .moduletable_days ul li a { color: #8B0E04;border-bottom: 1px solid #8B0E04;border-left: 1px solid #8B0E04;border-right: 1px solid #8B0E04; margin-bottom:4px; }
+
+.moduletable_days ul li a:hover, .moduletable_days ul a { color: #FFFFFF; margin-bottom: -4px; padding-bottom: 8px; }
+.Enero_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #0055A4; }
+.Febrero_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #711471; }
+.Marzo_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #4F812E; }
+.Abril_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #7AB9E7; }
+.Mayo_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #F58426; }
+.Junio_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #ED1556; }
+.Julio_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #EF3E42; }
+.Agosto_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #8B0E04; }
+.Septiembre_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #F58426; }
+.Octubre_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #413000; }
+.Noviembre_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #DDB000; }
+.Diciembre_page .moduletable_days ul li a:hover, .moduletable_days ul a { background: none repeat scroll 0 0 #8B0E04; }
+
+#subnav .moduletable_days #arts li a {
+	border-bottom:1px solid #8B0E04;
+	border-left:1px solid #8B0E04;
+	border-right:1px solid #8B0E04;
+}
+#subnav .moduletable_days #arts li a:hover, #subnav .moduletable_days #arts .active a {
+    background: none repeat scroll 0 0 #8B0E04;
+	color:#fff;
+	margin-bottom: -4px; padding-bottom: 8px;
+}
+
+#subnav .moduletable_days #health li a, #subnav .moduletable_days #reading li a {
+	border-bottom:1px solid #0055A4;
+	border-left:1px solid #0055A4;
+	border-right:1px solid #0055A4;
+	color:#0055A4;
+}
+#subnav .moduletable_days #health li a:hover, #subnav .moduletable_days #health .active a, 
+#subnav .moduletable_days #reading li a:hover, #subnav .moduletable_days #reading .active a {
+    background: none repeat scroll 0 0 #0055A4;
+	color:#fff;
+	margin-bottom: -4px; padding-bottom: 8px;
+}
+
+.day_1 .moduletable_days ul li a.nav_1,.day_2 .moduletable_days ul li a.nav_2,.day_3 .moduletable_days ul li a.nav_3,.day_4 .moduletable_days ul li a.nav_4,.day_5 .moduletable_days ul li a.nav_5,.day_6 .moduletable_days ul li a.nav_6,.day_7 .moduletable_days ul li a.nav_7,.day_8 .moduletable_days ul li a.nav_8,.day_9 .moduletable_days ul li a.nav_9,.day_10 .moduletable_days ul li a.nav_10,
+.day_11 .moduletable_days ul li a.nav_11,.day_12 .moduletable_days ul li a.nav_12,.day_13 .moduletable_days ul li a.nav_13,.day_14 .moduletable_days ul li a.nav_14,.day_15 .moduletable_days ul li a.nav_15,.day_16 .moduletable_days ul li a.nav_16,.day_17 .moduletable_days ul li a.nav_17,.day_18 .moduletable_days ul li a.nav_18,.day_19 .moduletable_days ul li a.nav_19,.day_20 .moduletable_days ul li a.nav_20,
+.day_21 .moduletable_days ul li a.nav_21,.day_22 .moduletable_days ul li a.nav_22,.day_23 .moduletable_days ul li a.nav_23,.day_24 .moduletable_days ul li a.nav_24,.day_25 .moduletable_days ul li a.nav_25,.day_26 .moduletable_days ul li a.nav_26,.day_27 .moduletable_days ul li a.nav_27,.day_28 .moduletable_days ul li a.nav_28,.day_29 .moduletable_days ul li a.nav_29,.day_30 .moduletable_days ul li a.nav_30,
+.day_31 .moduletable_days ul li a.nav_31 {
+    color: #FFFFFF;
+    margin-bottom: -4px;
+    padding-bottom: 8px;
+	background: none repeat scroll 0 0 #ED1556; /*what color to make this???*/
+}
+
+#content_container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    color: #000000;
+    line-height: 1.5;
+    margin: 15px auto 0;
+    min-height: 400px;
+    width: 850px;
+    border-top: 5px solid #750929;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:.8em;
+}
+#content_container h4 {
+    color: #444;
+    font-size: 1em;
+    margin: 15px 20px 0 0;
+}
+#content_container p.monthp {
+    margin: 0 20px 15px;
+    text-align: left;
+}
+#content_container .monthp img {
+    border: 1px solid #333333;
+}
+#content_container h3.monthh3 {
+    font: bold 16px Tahoma,Arial,sans-serif;
+    margin: 0 20px 10px;
+    text-align: left;
+}
+#content_container ul.booklist {
+    margin: 0 20px 15px;
+}
+#content_container .booklist li {
+    font-size: 13px;
+    margin: 0 20px 5px;
+}
+#content_container .padded {
+	margin:0 20px 15px;
+	}
+#content_container .padded p, #content_container .padded ul, #content_container .padded h1, #content_container .padded h2, #content_container .padded h3, #content_container .padded ol {
+	margin:0 20px 15px;
+	}
+	
+#content_container .book_table p {
+    margin: 0 20px 15px;
+    text-align: left;
+}
+#content_container .book_table img {
+	border:1px solid #666666;
+}
+
+.monthul {
+    margin: 15px 20px 10px;
+}
+.monthly_img {
+    border: 1px solid #333333;
+    float: left;
+    margin: 0 30px 15px 0;
+}
+.contentheading {
+    font: small-caps bold 25px Tahoma,Arial,sans-serif;
+    letter-spacing: 3px;
+    padding: 5px 0 0 20px;
+	}
+	.contentheading a { text-decoration:none; }
+.contentsubheading {
+    font: small-caps 20px Tahoma,Arial,sans-serif;
+    letter-spacing: 3px;
+    padding: 5px 0 0 20px;
+}
+.one, .two, .three, .four {
+    float: left;
+    margin: 15px 0 0 20px;
+    width: 370px;
+}
+.one, .three, .four, .five {
+    padding: 15px;
+}
+.one {
+    background: none repeat scroll 0 0 #FFF9FB;
+    border: 1px dashed #ED1556;
+}
+.three, .five {
+    clear: both;
+}
+.five {
+    border-top: 1px dashed #888888;
+    float: left;
+    margin: 15px 20px;
+    width: 775px;
+}
+.five p {
+    margin-bottom: 15px;
+}
+.five h3 {
+    font: bold 18px Tahoma,Arial,sans-serif;
+    margin-bottom: 5px;
+}
+.two .artwork {
+    border: 1px solid #333333;
+}
+.sing_head {
+    font: bold 18px Tahoma,Arial,sans-serif;
+    margin-top: 15px;
+}
+.sing_p, .explore, .tumble, .try, .try_list, .video {
+    font: 15px/1.5 Georgia,serif;
+    margin-top: 10px;
+}
+.sing_p {
+    height: 200px;
+    overflow: auto;
+}
+.read_p {
+    height: 500px;
+    overflow: auto;
+}
+.try_list li {
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    font-family: Georgia,serif;
+    font-size: 13px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5 !important;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.tumble {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tumble img {
+    border: 1px solid #666666;
+    float: left;
+    margin: 0 10px 5px 0;
+}
+.vid_head {
+    font: bold 16px Tahoma,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+.explore_list {
+    margin: 15px 20px 0;
+}
+.explore_list li {
+    line-height: 1.5;
+}
+.caption {
+    clear: both;
+    color: #444444 !important;
+    font: italic bold 11px Helvetica,Arial,sans-serif !important;
+    margin: 5px 0 10px !important;
+    text-align: left;
+}
+#site_map {
+    padding-bottom: 15px;
+}
+#site_map li {
+    font-size: 18px;
+    line-height: 1.2 !important;
+}
+#bottom_wrap {
+    clear: both;
+    height: 384px;
+    margin: 0 auto;
+    width: 100%;
+}
+#activity_buttons {
+    height: 289px;
+    margin: 0 auto;
+    width: 680px;
+}
+#activity_buttons h2 {
+    font: italic 21px Arial,Helvetica,sans-serif;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+#activity_buttons div {
+    height: 77px;
+    margin-bottom: 35px;
+    width: 288px;
+	background: url("/img/bottom_button.jpg") no-repeat scroll left top transparent;
+}
+.Febrero_page #activity_buttons div { background: url("/img/bottom_button_february.jpg") no-repeat scroll center top transparent; }
+.Marzo_page #activity_buttons div { background: url("/img/bottom_button_march.jpg") no-repeat scroll center top transparent; }
+.Abril_page #activity_buttons div { background: url("/img/bottom_button_april.jpg") no-repeat scroll center top transparent; }
+.Mayo_page #activity_buttons div { background: url("/img/bottom_button_may.jpg") no-repeat scroll center top transparent; }
+.Junio_page #activity_buttons div { background: url("/img/bottom_button_june.jpg") no-repeat scroll center top transparent; }
+.Julio_page #activity_buttons div { background: url("/img/bottom_button_july.jpg") no-repeat scroll center top transparent; }
+.Agosto_page #activity_buttons div { background: url("/img/bottom_button_august.jpg") no-repeat scroll center top transparent; }
+.Septiembre_page #activity_buttons div { background: url("/img/bottom_button_september.jpg") no-repeat scroll center top transparent; }
+.Octubre_page #activity_buttons div { background: url("/img/bottom_button_october.jpg") no-repeat scroll center top transparent; }
+.Noviembre_page #activity_buttons div { background: url("/img/bottom_button_november.jpg") no-repeat scroll center top transparent; }
+.Diciembre_page #activity_buttons div { background: url("/img/bottom_button_december.jpg") no-repeat scroll center top transparent; }
+.reading #activity_buttons div { background: url("/img/bottom_button_april.jpg") no-repeat scroll center top transparent; }
+.art_craft #activity_buttons div { background: url("/img/bottom_button_august.jpg") no-repeat scroll center top transparent; }
+
+#activity_buttons div p {
+    font: italic bold 24px Tahoma,Arial,Helvetica,sans-serif;
+    text-align: center;
+}
+
+#activity_buttons div p a {
+	display: block;
+    height: 77px;
+    padding-top: 20px;
+    text-decoration: none;
+    width: 288px;
+    color: #FFFFFF;
+}
+#activity_buttons div p a:hover {
+    text-decoration: underline;
+}
+
+#footer_logos {
+    height: 72px;
+    margin: 0 auto;
+    width: 850px;
+}
+#footer_logos p {
+    color: #FFFFFF;
+    float: left;
+    font: italic 11px Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+    text-align: left;
+    width: 850px;
+}
+#footer_logos img {
+    float: left;
+    margin-left: 20px;
+    vertical-align: top;
+}
+#bottom_wrap {
+    background: url("/img/footer.jpg") no-repeat scroll center top #3B6E8F;
+    border-top: 1px solid #F58426;
+}
+.Enero_page #bottom_wrap { background: url("/img/footer_january.jpg") no-repeat scroll center top transparent; }
+.Febrero_page #bottom_wrap { background: url("/img/footer_february.jpg") no-repeat scroll center top transparent; }
+.Marzo_page #bottom_wrap { background: url("/img/footer_march.jpg") no-repeat scroll center top transparent; }
+.Abril_page #bottom_wrap { background: url("/img/footer_april.jpg") no-repeat scroll center top transparent; }
+.Mayo_page #bottom_wrap { background: url("/img/footer_may.jpg") no-repeat scroll center top transparent; }
+.Junio_page #bottom_wrap { background: url("/img/footer_june.jpg") no-repeat scroll center top transparent; }
+.Julio_page #bottom_wrap { background: url("/img/footer_july.jpg") no-repeat scroll center top transparent; }
+.Agosto_page #bottom_wrap { background: url("/img/footer_august.jpg") no-repeat scroll center top transparent; }
+.Septiembre_page #bottom_wrap { background: url("/img/footer_september.jpg") no-repeat scroll center top transparent; }
+.Octubre_page #bottom_wrap { background: url("/img/footer_october.jpg") no-repeat scroll center top transparent; }
+.Noviembre_page #bottom_wrap { background: url("/img/footer_november.jpg") no-repeat scroll center top transparent; }
+.Diciembre_page #bottom_wrap { background: url("/img/footer_december.jpg") no-repeat scroll center top transparent; }
+.reading #bottom_wrap { background: url("/img/footer_april.jpg") no-repeat scroll center top transparent; }
+.art_craft #bottom_wrap { background: url("/img/footer_august.jpg") no-repeat scroll center top transparent; }
+
+.moduletable_footer_nav {
+    height: 23px;
+    margin: 0 auto;
+    width: 850px;
+}
+.moduletable_footer_nav ul {
+    list-style: none outside none;
+    text-align: left;
+}
+.moduletable_footer_nav ul li {
+    float: left;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 3px;
+}
+.pagination {
+    clear: left;
+    color: #666666;
+    font: italic small-caps bold 16px Tahoma,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    text-align: center;
+    width: 850px;
+}
+.article_separator {
+    display: none;
+}
+.feature_box {
+    background: none repeat scroll 0 0 #FFFBDF;
+    border: 2px dashed #AAAAAA;
+    float: right;
+    margin: 0 15px 15px;
+    padding: 15px;
+}
+.fb_fixedWidth {
+	width:350px;	
+}
+.feature_box h2 {
+    font: bold 16px Tahoma,Arial,sans-serif;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+.feature_box img {
+    border: 1px solid #333333;
+}
+.clip_art {
+    float: right;
+    margin: 0 15px 15px;
+    padding: 15px;
+}
+/****** WEB FONTS ******/
+.heading {
+	font-family: 'Gorditas';
+	font-size:2.5em;
+	text-transform:uppercase;
+	line-height:1em;
+	}
+.subHeading {
+	font-family: 'Gorditas';
+	font-size:2em;
+	text-transform:uppercase;
+	line-height:1em;
+	}
+.Enero_page .heading { color:#0055a5; }
+.Febrero_page .heading { color:#711371; }
+.Marzo_page .heading { color:#4d7f2c; }
+.Abril_page .heading { color:#1d6ca5; }
+.Mayo_page .heading { color:#3a6d8e; }
+.Junio_page .heading { color:#6db33f; }
+.Julio_page .heading { color:#0054a4; }
+.Agosto_page .heading { color:#8b0e04; }
+.Septiembre_page .heading { color:#8b0d05; }
+.Octubre_page .heading { color:#cf6f19; }
+.Noviembre_page .heading { color:#ddb000; }
+.Diciembre_page .heading { color:#8b0e04; }
+
+.blueText {
+	color:#3076a6;
+	}
+.maroonText {
+	color:#8b0e04;
+	}
+.clear {
+	clear:both;
+}
+dt{  
+	font-weight:bold;
+	margin:.75em 0 .4em 25px;
+	padding:0;
+	}
+	
+dd{
+	margin: 0 0 0 4em;
+	padding:0;
+	font-weight:normal;
+	}

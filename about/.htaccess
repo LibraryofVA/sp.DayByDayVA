@@ -1,0 +1,6 @@
+IndexIgnore *
+Options +FollowSymLinks
+Options +Indexes
+RewriteEngine On
+
+RewriteRule ^error/([0-9]{3})/?$ error.php?err=$1&%{QUERY_STRING} [L]

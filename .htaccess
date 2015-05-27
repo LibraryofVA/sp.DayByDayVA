@@ -1,0 +1,20 @@
+IndexIgnore *
+Options +FollowSymLinks
+Options +Indexes
+RewriteEngine On
+
+RewriteRule ^places/?$ places.php
+RewriteRule ^places/([a-zA-Z_]+)/?$ places.php?loc=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php !-f
+RewriteRule ^([a-zA-Z]+)/?$ index.php?m=$1&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php !-f
+RewriteRule ^([a-zA-Z]+)/([0-9]{2})/?$ index.php?m=$1&d=$2&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php
