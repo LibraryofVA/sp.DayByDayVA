@@ -50,7 +50,7 @@ else {
 function print_out($t,$desc,$month) {
   echo '<div id="top_wrap">' . "\n";
   echo '<div class="moduletable_menuhead">' . "\n";
-  echo '<h3>Try a different month:</h3>' . "\n";
+  echo '<h3>Otros meses:</h3>' . "\n";
   echo '<ul id="head_nav" class="menu"><li class="item387"><a href="/Enero/01"><span>Enero</span></a></li><li class="item388"><a href="/Febrero/01"><span>Febrero</span></a></li><li class="item389"><a href="/Marzo/01"><span>Marzo</span></a></li><li class="item390"><a href="/Abril/01"><span>Abril</span></a></li><li class="item391"><a href="/Mayo/01"><span>Mayo</span></a></li><li class="item392"><a href="/Junio/01"><span>Junio</span></a></li><li class="item393"><a href="/Julio/01"><span>Julio</span></a></li><li class="item394"><a href="/Agosto/01"><span>Agosto</span></a></li><li class="item395"><a href="/Septiembre/01"><span>Septiembre</span></a></li><li class="item396"><a href="/Octubre/01"><span>Octubre</span></a></li><li class="item397"><a href="/Noviembre/01"><span>Noviembre</span></a></li><li class="item398"><a href="/Diciembre/01"><span>Diciembre</span></a></li></ul>		</div>' . "\n";
   echo '<div id="head_logos">' . "\n";
   echo '<h1><a href="/">' . "\n";
@@ -61,7 +61,7 @@ function print_out($t,$desc,$month) {
   echo '<div class="moduletable_days">' . "\n";
   echo '<ul class="menu">' . "\n";
   //date("n", strtotime($month)) was used as the second parameter in the cal_days_in_month() function below
-  //but due to months being in Spanish we hae to assign numbers manually
+  //but due to months being in Spanish we have to assign numbers manually
   switch ($month) {
     case 'Enero':
         $monthNum = 1;
