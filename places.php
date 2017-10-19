@@ -110,7 +110,7 @@ function showLibraries(json) {
 		centralDL.appendChild(dd);
 		
 		dd = document.createElement('dd');
-		content = document.createTextNode(entry.gsx$branchphone.$t);
+		content = document.createTextNode(entry.gsx$phone.$t);
 		dd.appendChild(content);
 		centralDL.appendChild(dd);
 		
@@ -148,7 +148,7 @@ function showLibraries(json) {
 		dl.appendChild(dd);
 		
 		dd = document.createElement('dd');
-		content = document.createTextNode(entry.gsx$branchphone.$t);
+		content = document.createTextNode(entry.gsx$phone.$t);
 		dd.appendChild(content);
 		dl.appendChild(dd);
 		
